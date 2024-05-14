@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.stylish-text {
+    font-size: 48px;
+    color: #333;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.stylish-text span:nth-child(odd) {
+    color: #ff3366; 
+}
