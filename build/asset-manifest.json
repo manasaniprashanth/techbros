@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/techbros/static/css/main.3b816bc3.css",
+    "main.js": "/techbros/static/js/main.2a69025f.js",
+    "static/js/453.b8ef3674.chunk.js": "/techbros/static/js/453.b8ef3674.chunk.js",
+    "index.html": "/techbros/index.html",
+    "main.3b816bc3.css.map": "/techbros/static/css/main.3b816bc3.css.map",
+    "main.2a69025f.js.map": "/techbros/static/js/main.2a69025f.js.map",
+    "453.b8ef3674.chunk.js.map": "/techbros/static/js/453.b8ef3674.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b816bc3.css",
+    "static/js/main.2a69025f.js"
+  ]
+}
