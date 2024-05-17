@@ -3,13 +3,13 @@ import React, { useEffect } from "react";
 const ComingSoon = () => {
   useEffect(() => {
     const o = document.querySelector(".hop");
-    o.style.animation = "hop 100s infinite alternate";
+    o.style.animation = "hop 1s infinite alternate";
   }, []);
 
   return (
     <div className="container">
       <div className="text">
-        TechBros Com<span className="hop">i</span>ng Soon...!
+        Com<span className="hop">i</span>ng Soon...
       </div>
       <style>{`
         body {
@@ -19,13 +19,13 @@ const ComingSoon = () => {
           justify-content: center;
           align-items: center;
           height: 100vh;
-          background-color: white;
+          background-color: black;
         }
         
         .text {
           font-size: 48px;
-          color: teal;
-          animation: hop 0.8s infinite alternate;
+          color: white;
+          animation: hop 1s infinite alternate;
         }
         
         @keyframes hop {
@@ -33,7 +33,7 @@ const ComingSoon = () => {
             transform: translateY(0);
           }
           100% {
-            transform: translateY(-40px);
+            transform: translateY(-10px);
           }
         }
       `}</style>
